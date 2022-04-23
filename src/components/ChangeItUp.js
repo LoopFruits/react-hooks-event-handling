@@ -2,6 +2,7 @@ import React from "react";
 
 function ChangeItUp() {
   function handleChange(event) {
+    //the output is captured by event.target.value, and logged to the console
     console.log(`${event.target.name}: ${event.target.value}`);
   }
 
